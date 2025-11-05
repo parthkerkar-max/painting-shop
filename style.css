@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #fafafa;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #111;
+  color: white;
+}
+
+header nav a {
+  color: white;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: linear-gradient(to right, #ffb347, #ffcc33);
+  color: #222;
+}
+
+.shop-btn {
+  background: #111;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.gallery {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.paintings {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.painting {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 1rem;
+  width: 300px;
+}
+
+.painting img {
+  border-radius: 8px;
+  width: 100%;
+  height: auto;
+}
+
+.add-cart {
+  margin-top: 0.5rem;
+  background: #333;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #111;
+  color: white;
+  margin-top: 2rem;
+}
